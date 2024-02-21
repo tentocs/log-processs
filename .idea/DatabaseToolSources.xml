@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DatabaseToolSources">
+    <data-source name="localhost" uuid="9fc6b642-6dbf-47ae-81bf-08e0de3d25f6" type="MSSQL">
+      <base-info connect-type="DB_DEFAULT" />
+      <user-name>sa</user-name>
+      <url>jdbc:sqlserver://localhost:1433;database=AdventureWorks2022</url>
+      <remarks />
+      <vm-options />
+      <driver-info id="Microsoft SQL Server" />
+      <ssh-properties enabled="false" />
+      <jdbc-additional-properties>
+        <property name="encrypt" value="false" />
+        <property name="sendTimeAsDatetime" value="false" />
+      </jdbc-additional-properties>
+      <ssl-config enabled="false">
+        <uuid />
+        <caFile />
+        <clientCertificateFile />
+        <clientKeyFile />
+        <sslMode>REQUIRE</sslMode>
+      </ssl-config>
+    </data-source>
+    <data-source name="CARLOSC\" uuid="c9db1d1f-7a6e-4044-bb48-08c1ef88f83a" type="MSSQL">
+      <base-info connect-type="DB_DEFAULT" />
+      <user-name>sa</user-name>
+      <url>jdbc:sqlserver://localhost:1433\MSSQLSERVER;database=AdventureWorks2022</url>
+      <remarks />
+      <vm-options />
+      <driver-info id="Microsoft SQL Server" />
+      <ssh-properties enabled="false" />
+      <jdbc-additional-properties>
+        <property name="encrypt" value="false" />
+        <property name="sendTimeAsDatetime" value="false" />
+      </jdbc-additional-properties>
+      <ssl-config enabled="false">
+        <uuid />
+        <caFile />
+        <clientCertificateFile />
+        <clientKeyFile />
+        <sslMode>REQUIRE</sslMode>
+      </ssl-config>
+    </data-source>
+  </component>
+</project>
