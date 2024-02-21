@@ -15,6 +15,7 @@ public class SQLDatabaseConnection {
         try (Connection connection = DriverManager.getConnection(connectionUrl);
              Statement statement = connection.createStatement()) {
 
+            //test commento
             String selectSql = "SELECT TOP 10 Title, FirstName, LastName FROM SalesLT.Customer";
             ResultSet resultSet = statement.executeQuery(selectSql);
 
